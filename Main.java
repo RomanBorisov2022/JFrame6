@@ -14,7 +14,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         HashMap<Integer, String> doors = new HashMap<>();
-        doors.put(1, "Ааавтомобииль");
+        doors.put(1, "Автомобииль");
         doors.put(2, "Коза");
         doors.put(3, "Коза");
         int initialChoice = new Random().nextInt(1, 4);
